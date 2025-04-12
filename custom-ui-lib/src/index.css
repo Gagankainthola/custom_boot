@@ -1,0 +1,8 @@
+@import "../src/styles/features/spacing/padding.css";
+@import "../src/styles/features/spacing/margin.css";
+@import "../src/styles/features/layouts/flex_layout_responsive.css";
+@import "../src/styles/features/colours/colours.css";
+@import "../src/styles/features/fonts/typography.css";
+:root {
+        --spacing: 0.2rem; /* Base spacing unit */
+    }
