@@ -6,7 +6,8 @@
   "module": "dist/custom-ui-lib.es.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "src/styles"
   ],
   "exports": {
     ".": {
