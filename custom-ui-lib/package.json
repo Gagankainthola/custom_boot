@@ -1,13 +1,12 @@
 {
-  "name": "custom-ui-lib",
-  "version": "1.0.0",
+  "name": "team_chaos_ui_lib",
+  "version": "1.0.1",
   "description": "A custom UI component library built with React and Vite.",
   "main": "dist/custom-ui-lib.umd.js",
   "module": "dist/custom-ui-lib.es.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist",
-    "src/styles"
+    "dist"
   ],
   "exports": {
     ".": {
