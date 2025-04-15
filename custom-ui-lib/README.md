@@ -1,12 +1,77 @@
-# React + Vite
+# Custom UI Library
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modular and customizable UI component library built using React and Vite. The library includes a set of commonly used UI components like Buttons and Cards, as well as a flexible layout system.
 
-Currently, two official plugins are available:
+## Authors
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Devang Kandari**
+- **Vedant Rai**
+- **Gagan Kainthola**
+- **Sandeep Tripathi**
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+You can install the `custom-ui-lib` npm package via npm:
+
+npm install custom-ui-lib
+
+## Usage
+
+Once installed, you can import and use the components from the library in your React application:
+```jsx
+import React from 'react';
+import { Button, Card } from 'custom-ui-lib';
+
+function App() {
+  return (
+    <div>
+      <Button variant="primary">Click Me</Button>
+      <Card title="Card Title" content="Card Content" />
+    </div>
+  );
+}
+
+export default App;
+```
+# Available Components
+
+## Button
+
+A customizable button component with various color variants.
+
+### Available Button Variants
+
+| Variant    | Description / Style Example                   |
+|------------|-----------------------------------------------|
+| `primary`  | Blue background with white text               |
+| `secondary`| Gray background with white text               |
+| `success`  | Green background with white text              |
+| `warning`  | Yellow/Orange background with white text      |
+| `danger`   | Red background with white text                |
+| `info`     | Light blue background with white text         |
+| `light`    | Light background with dark text               |
+| `dark`     | Dark background with white text               |
+| `link`     | Looks like a standard hyperlink (text only)   |
+
+Example:
+
+```jsx
+<Button variant="primary">Primary Button</Button>
+<Button variant="secondary">Secondary Button</Button>
+```
+
+
+## Card
+
+A simple card component with a title and content section.
+
+Props:
+
+title: (string) The title of the card.
+
+content: (string) The content inside the card.
+
+Example:
+```jsx
+<Card title="Card Title" content="This is a simple card." />
+```
