@@ -22,10 +22,6 @@
     margin: calc(var(--spacing) * 5);
 }
 
-.mg-6 {
-    margin: calc(var(--spacing) * 6);
-}
-
 .mg-top {
     margin-top: calc(var(--spacing) * 1);
 }
@@ -42,6 +38,7 @@
     margin-left: calc(var(--spacing) * 1);
 }
 
+/* Negative margin classes */
 .mg-neg {
     margin: calc(var(--spacing) * -1);
 }
@@ -49,6 +46,19 @@
 .mg-neg-top {
     margin-top: calc(var(--spacing) * -1);
 }
+
+.mg-neg-right {
+    margin-right: calc(var(--spacing) * -1);
+}
+
+.mg-neg-bottom {
+    margin-bottom: calc(var(--spacing) * -1);
+}
+
+.mg-neg-left {
+    margin-left: calc(var(--spacing) * -1);
+}
+
 
 
 @media (min-width: 768px) {

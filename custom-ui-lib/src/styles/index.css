@@ -2,6 +2,13 @@
 @import "../styles/features/spacing/padding.css";
 @import "../styles/features/layouts/flex_layout_responsive.css";
 @import "../styles/features/colours/colours.css";
+@import "../styles/features/containers/card.css";
+@import "../styles/features/containers/container1.css";
+@import "../styles/features/containers/form.css";
+@import "../styles/features/containers/mainsection.css";
+@import "../styles/features/containers/navbar.css";
+@import "../styles/features/containers/footer.css";
+@import "../styles/features/containers/table.css";
 @import "../styles/features/fonts/typography.css";
 :root {
         --spacing: 0.2rem; /* Base spacing unit */

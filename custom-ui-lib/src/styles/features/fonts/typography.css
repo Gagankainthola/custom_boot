@@ -15,6 +15,47 @@
     --fw-bold: 700;
 }
 
+.txt-xl {
+    font-size: 1.25rem;
+}
+
+.txt-2xl {
+    font-size: 1.5rem;
+}
+
+.txt-3xl {
+    font-size: 1.875rem;
+}
+
+.fw-semibold {
+    font-weight: 600;
+}
+
+.txt-primary {
+    color: var(--primary-color);
+}
+
+.txt-dark {
+    color: var(--text-dark);
+}
+
+.txt-light {
+    color: var(--text-light);
+}
+
+/* Text Alignments */
+.txt-center {
+    text-align: center;
+}
+
+.txt-left {
+    text-align: left;
+}
+
+.txt-right {
+    text-align: right;
+}
+
 
 .txt-xs {
     font-size: var(--txt-size-xs);

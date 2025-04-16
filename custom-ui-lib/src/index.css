@@ -3,6 +3,16 @@
 @import "../src/styles/features/layouts/flex_layout_responsive.css";
 @import "../src/styles/features/colours/colours.css";
 @import "../src/styles/features/fonts/typography.css";
+@import "../src/styles/features/containers/container1.css";
+@import "../src/styles/features/containers/form.css";
+@import "../src/styles/features/containers/mainsection.css";
+@import "../src/styles/features/containers/card.css";
+@import "../src/styles/features/containers/navbar.css";
 :root {
         --spacing: 0.2rem; /* Base spacing unit */
     }
+/* index.css or App.css */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
