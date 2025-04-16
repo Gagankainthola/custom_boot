@@ -18,4 +18,4 @@ const CardComponent = ({ title, description, imgUrl }) => {
   );
 };
 
-export default CardComponent;
+export default Card;
