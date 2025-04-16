@@ -33,5 +33,3 @@ function Button({ variant, children, ...props }) {
     </button>
   );
 }
-
-export default Button;

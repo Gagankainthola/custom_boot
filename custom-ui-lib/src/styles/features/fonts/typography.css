@@ -1,99 +1,137 @@
 :root {
-    --txt-size-xs: 0.75rem;
-    --txt-size-sm: 0.875rem;
-    --txt-size-md: 1rem;
-    --txt-size-lg: 1.125rem;
-    --txt-size-xl: 1.25rem;
-    --txt-size-2xl: 1.5rem;
-    --txt-size-3xl: 1.875rem;
-    --txt-size-4xl: 2.25rem;
+  --txt-size-xs: 0.75rem;
+  --txt-size-sm: 0.875rem;
+  --txt-size-md: 1rem;
+  --txt-size-lg: 1.125rem;
+  --txt-size-xl: 1.25rem;
+  --txt-size-2xl: 1.5rem;
+  --txt-size-3xl: 1.875rem;
+  --txt-size-4xl: 2.25rem;
 
-    --fw-light: 300;
-    --fw-normal: 400;
-    --fw-medium: 500;
-    --fw-semibold: 600;
-    --fw-bold: 700;
-}
-
-
-.txt-xs {
-    font-size: var(--txt-size-xs);
-}
-
-.txt-sm {
-    font-size: var(--txt-size-sm);
-}
-
-.txt-md {
-    font-size: var(--txt-size-md);
-}
-
-.txt-lg {
-    font-size: var(--txt-size-lg);
+  --fw-light: 300;
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
 }
 
 .txt-xl {
-    font-size: var(--txt-size-xl);
+  font-size: 1.25rem;
 }
 
 .txt-2xl {
-    font-size: var(--txt-size-2xl);
+  font-size: 1.5rem;
 }
 
 .txt-3xl {
-    font-size: var(--txt-size-3xl);
-}
-
-.txt-4xl {
-    font-size: var(--txt-size-4xl);
-}
-
-.fw-light {
-    font-weight: var(--fw-light);
-}
-
-.fw-normal {
-    font-weight: var(--fw-normal);
-}
-
-.fw-medium {
-    font-weight: var(--fw-medium);
+  font-size: 1.875rem;
 }
 
 .fw-semibold {
-    font-weight: var(--fw-semibold);
+  font-weight: 600;
+}
+
+.txt-primary {
+  color: var(--primary-color);
+}
+
+.txt-dark {
+  color: var(--text-dark);
+}
+
+.txt-light {
+  color: var(--text-light);
+}
+
+/* Text Alignments */
+.txt-center {
+  text-align: center;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.txt-xs {
+  font-size: var(--txt-size-xs);
+}
+
+.txt-sm {
+  font-size: var(--txt-size-sm);
+}
+
+.txt-md {
+  font-size: var(--txt-size-md);
+}
+
+.txt-lg {
+  font-size: var(--txt-size-lg);
+}
+
+.txt-xl {
+  font-size: var(--txt-size-xl);
+}
+
+.txt-2xl {
+  font-size: var(--txt-size-2xl);
+}
+
+.txt-3xl {
+  font-size: var(--txt-size-3xl);
+}
+
+.txt-4xl {
+  font-size: var(--txt-size-4xl);
+}
+
+.fw-light {
+  font-weight: var(--fw-light);
+}
+
+.fw-normal {
+  font-weight: var(--fw-normal);
+}
+
+.fw-medium {
+  font-weight: var(--fw-medium);
+}
+
+.fw-semibold {
+  font-weight: var(--fw-semibold);
 }
 
 .fw-bold {
-    font-weight: var(--fw-bold);
+  font-weight: var(--fw-bold);
 }
 
-
 .align-left {
-    text-align: left;
+  text-align: left;
 }
 
 .align-center {
-    text-align: center;
+  text-align: center;
 }
 
 .align-right {
-    text-align: right;
+  text-align: right;
 }
 
 .align-justify {
-    text-align: justify;
+  text-align: justify;
 }
 
-
 .case-upper {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .case-lower {
-    text-transform: lowercase;
+  text-transform: lowercase;
 }
 
 .case-cap {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
