@@ -1,6 +1,6 @@
 # Custom UI Library
 
-A modular and customizable UI component library built using React and Vite. The library includes a set of commonly used UI components like Buttons and Cards, as well as a flexible layout system.
+A modular and customizable UI component library built using React and Vite. The library includes a set of commonly used UI components like Buttons, Cards, and Navbars, as well as a flexible layout system.
 
 ## Authors
 
@@ -11,21 +11,38 @@ A modular and customizable UI component library built using React and Vite. The 
 
 ## Installation
 
-npm install team-chaos-ui-lib
+To install the library, run:
+
+```bash
+npm install team-chaos-custom-ui-lib
+
 
 ## Usage
 
-Once installed, you can import and use the components from the library in your React application:
+// 🔥 Import components from your custom UI lib
+import { Button, Card, Footer, Form, MainSection, Navbar, Table, Test } from "team-chaos-custom-ui-lib";
 
-```jsx
-import React from "react";
-import { Button, Card } from "custom-ui-lib";
+// 🔥 Import utility CSS from your lib's dist
+import "team-chaos-custom-ui-lib/styles/features/colours/colours.css";
+import "team-chaos-custom-ui-lib/styles/features/fonts/typography.css";
+import "team-chaos-custom-ui-lib/styles/features/layouts/flex_layout_responsive.css";
+import "team-chaos-custom-ui-lib/styles/features/spacing/margin.css";
+import "team-chaos-custom-ui-lib/styles/features/spacing/padding.css";
+import "team-chaos-custom-ui-lib/styles/features/containers/card.css";
+import "team-chaos-custom-ui-lib/styles/features/containers/container1.css";
+import "team-chaos-custom-ui-lib/styles/features/containers/footer.css";
+import "team-chaos-custom-ui-lib/styles/features/containers/form.css";
+import "team-chaos-custom-ui-lib/styles/features/containers/mainsection.css";
+import "team-chaos-custom-ui-lib/styles/features/containers/navbar.css";
+import "team-chaos-custom-ui-lib/styles/features/containers/table.css";
 
 function App() {
   return (
     <div>
+      <Navbar />
       <Button variant="primary">Click Me</Button>
-      <Card title="Card Title" content="Card Content" />
+      <Card title="Card Title" description="Card Content" imgUrl="path-to-image.jpg" />
+      <Footer />
     </div>
   );
 }
