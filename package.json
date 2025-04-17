@@ -1,0 +1,53 @@
+{
+  "name": "team-chaos-custom-ui-lib",
+  "version": "1.0.2",
+  "type": "module",
+  "main": "dist/custom-ui-lib.cjs.js",
+  "module": "dist/custom-ui-lib.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/custom-ui-lib.es.js",
+      "require": "./dist/custom-ui-lib.cjs.js"
+    },
+    "./styles/*": "./dist/styles/*"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "vite build",
+    "prepublishOnly": "npm run build",
+    "dev": "vite",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "author": {
+    "name": "Vedant Rai",
+    "email": "vedantrai1819@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Devang Kandari",
+      "email": "devang.kandari@gmail.com"
+    },
+    {
+      "name": "Gagan Kainthola",
+      "email": "gagankainthola2@gmail.com"
+    },
+    {
+      "name": "Sandeep Tripathi",
+      "email": "sandeeptripathi3339@gmail.com"
+    }
+  ],
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.0",
+    "rimraf": "^6.0.1",
+    "vite": "^6.3.1",
+    "vite-plugin-static-copy": "^2.3.1"
+  }
+}
