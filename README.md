@@ -80,13 +80,7 @@ The `variant` prop defines the button style. The available values are:
 
 By default, if no `variant` is provided, the button will have the `"primary"` variant style.
 
-## Example Usage
 
-### Primary Button
-
-```jsx
-<Button variant="primary">Primary Button</Button>
-```
 
 # `Card` Component
 
@@ -105,11 +99,24 @@ The `CardComponent` is a reusable card UI component designed to display content 
 ### Simple Card with Title, Description, and Image
 
 ```jsx
-<CardComponent
-  title="Card Title"
-  description="This is a description of the card."
-  imgUrl="https://via.placeholder.com/300"
-/>
+import React from 'react';
+
+const Card = ({ title, description, imgUrl }) => {
+  return (
+    <div className="card-container border-2 border-black rounded-lg overflow-hidden shadow-md w-[664px] h-[530px]">
+      <div className="card-header p-3">
+        <h2 className="txt-xl fw-semibold">{title}</h2>
+      </div>
+      <div className="card-body p-3">
+        <img src={imgUrl} alt={title} className="w-full h-[240px] object-cover rounded-md mb-3" />
+        <p className="txt-md txt-secondary">{description}</p>
+      </div>
+    </div>
+  );
+};
+
+export default Card;
+
 ```
 
 # Color Utility Class
